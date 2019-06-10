@@ -7,7 +7,7 @@ Important: If any changes to the variables are made, you must run the Auto-Confi
 
 Soundwave is a test for producing a visualizer in the form of smoothly connected Bezier curves.
 
-<h3>Skins:</h3>
+### Skins:
 Visualizer (Soundwave\main.ini)
 Key object that is used to display the audio spectrum. The context menu includes the ability to change the variables file (var.inc) and run the Auto-Configuration Program.
 
@@ -18,7 +18,7 @@ Note: If only the song title is available, only it is displayed. If the song tit
 Auto-Configuration Program (Soundwave\autoconfig\program.ini)
 Must be ran for a second after variables are changed.
 
-<h3>Variables:</h3>
+### Variables:
 (Only these may be changed, others that may be included do nothing)
 
 xconst Width modifier. (default 25)
@@ -26,7 +26,7 @@ yconst Height modifier. (default 80)
 endsize Start and end "flat line" length modifier. (default 80)
 player Music player to retrieve song information from. (default Spotify)
 
-<h3>Other Visualizer Options:</h3>
+### Other Visualizer Options:
 The visualizer's refresh rate can be changed at the top of its file (default 50 ms (20 Hz))
 The visualizer's gradient can be changed at the bottom of its file.
 The number of frequency bands is hard-coded with dependencies and it may be difficult to change.
